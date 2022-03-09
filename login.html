@@ -6,9 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Kids-Zone/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Kids-Zone/css/main.css">
-    <title>Document</title>
-</head>
-<body>
+    <title>Login</title>
+    <style>
+        body{
+          background-image:url("/Kids-Zone/image/background.jpg");
+          background-repeat: no-repeat;
+          background-size: cover; 
+        }
+        .head {
+          text-align: center;
+          padding-top: 60px;
+        }
+        .login {
+          font-size: larger;
+          padding-top: 20px;
+          padding-bottom: 40px;
+          width: 30%;
+          margin: auto;
+        }
+  
+        .login input {
+          width: 100%;
+        }
+  
+        #button {
+          margin: 0;
+          position: absolute;
+          top: 40%;
+          left: 45%;
+          border: none;
+          background-color: rgba(255, 255, 255, 0.658);
+          color: black;
+          padding: 10px;
+          width: 130px;
+        }
+        #button :hover{
+          background-color: black;
+          color: white;
+        }
+  
+        p {
+          padding-top: 75px;
+          text-align: center;
+          font-size: large;
+          color:black;
+
+        }
+      </style>
+    </head>
+    <body>
+      <div class="body">
+      <div class="head"><h1>Login</h1></div>
+      <div class="login">
+        <label for="Email">Email Address</label><br />
+        <input
+          type="email"name="email"id="email"required inputplaceholder="eg abc@gmail.com"/><br />
+        <label for="Password">Password</label><br />
+        <input type="password" name="password" id="paasword" required />
+      </div>
+      <div>
+        <input type="button" value=" Log in" id="button" />
+      </div>
+      <div>
+        <p>
+          Don't have an account? <a href="./SignUp.html">Sign up</a>
+        </p>
+      </div>
+    </div>
+    </body>
+  </html>
     
 </body>
 </html>
