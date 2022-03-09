@@ -6,9 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Kids-Zone/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Kids-Zone/css/main.css">
-    <title>Document</title>
-</head>
-<body>
+    <title>SignUp</title>
+    <style>
+        .Signup{
+          padding-top: 20px;  
+          text-align: center;      
+        }
+        
+      
+            
     
+        
+      </style>
+  </head>
+  <body>
+      <div class="Signup">
+          <h1>Sign up </h1>
+      </div>
+          <form>
+            <label>Firstname</label><br>
+              <input type="text"id=first required input placeholder="First name"><br>
+              <label>Lastname</label><br>
+              <input type="text" id="last" required input placeholder="Last name">
+              <div>
+                  <label>Your Email:</label><br>
+                  <input type="email" name="email" id="email" required input placeholder="eg 1234@gmail.com">
+              </div>
+              <div>
+                  <label>Password </label><br>
+                  <input type="password" name="password" id="paasword" required min="6">
+              </div>
+              <div>
+                  <label>Re-enter password </label><br>
+                  <input type="password" name="password" id="paasword" required min="6">
+              </div> 
+              <div>
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female<br>
+              </div>
+                <div>
+                  <input type="button" value="Sign up" id=submit>
+                </div>
+                 <p>
+                    Already have an account? Login <a href="./Login.html">Here</a>
+                 </p> 
+          </form>
+  </body>
+  </html>
+  
 </body>
 </html>
