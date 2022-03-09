@@ -1,0 +1,19 @@
+/*ELEAZAR'S PART OF THE CSS*/
+.body-container-fluid{
+    border: 1px solid black;
+   
+    
+}
+.nav-section{
+    border: 1px solid black;
+    padding-bottom:100px;
+}
+.image-section{
+    padding-bottom: 500px;
+   border: 1px solid black;
+}
+.A-Z-section{
+    padding-bottom: 1000px;
+    border: 1px solid black;
+}
+/*END OF ELEAZAR'S  PART OF THE CSS*/
