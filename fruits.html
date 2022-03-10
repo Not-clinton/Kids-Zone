@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <script src="/Kids-Zone/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <title>Fruits and Vegetables</title>
 </head>
 <body>
     <div class="container-fluid" >
         <!--Header section-->
         <div class="row">
-            <div class="container" style="border: 1px solid black;">
+            <div class="container" >
+              <!--navbar section-->
                 <div class="row" style="height: 108px;">
                     <nav class="navbar navbar-expand-md" id="nav-bar">
                         <div class="container-fluid">
@@ -56,39 +57,154 @@
                         
                     </nav>
                 </div>
-                <!--Carousel-->
+                <!-- Carousel -->
                 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                    <!-- Indicators/dots -->
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active btn-lg"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                    </div>
-                    
-                    <!-- The slideshow/carousel -->
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./Image/Salad.jpg" alt="Various fruits and veggies for salad" class="d-block" style="width:100%" height="50%">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./Image/Berries.webp" alt="Strawberries and blueberries" class="d-block" style="width:100%" height="50%">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./Image/Oranges_on_a_tree.jpg" alt="Banana" class="d-block" style="width:100%" height="50%">
-                      </div>
-                    </div>
-                    
-                    <!-- Left and right controls/icons -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
+                  <!-- Indicators/dots -->
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                  </div>
 
+                  <!-- The slideshow/carousel -->
+                  <div class="carousel-inner mx-auto img-fluid text-center" style=" height: 650px;">
+                    <div class="carousel-item active">
+                      <img src="./Image/Berries.webp" alt="Strawberries and blueberries" class="d-block w-100 mx-auto">
+                    </div>
+                    <div class="carousel-item ">
+                      <img src="./Image/vegetables in a basket.jpg" alt="Basket of vegetables" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./Image/fruit_salad.jpg" alt="2 bowls of fruit salad" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./Image/brocolli and letuce.webp" alt="Variety of vegetables" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./Image/Salad.jpg" alt="Different bowls of fruits and vegetables" class="d-block w-100">
+                    </div>
+                    
+                    <div class="carousel-item">
+                      <img src="./Image/vegetable_salad.jpg" alt="Vegetable salad" class="d-block w-100">
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls/icons -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
                 </div>
+            </div>
+            <!--Main section-->
+            <div class="row">
+              <div class="row">
+                  <h3 style="padding: 20px; text-align: center;">Fruits</h3>
+              </div>
+              
+              <div class="row" style=" max-width: 1200px; margin: auto;">
+                  <div class="col-4 " style="  height: 350px;">
+                    <figure class="figure">
+                    <img src="./Image/Bananas.webp" class="figure-img img-fluid rounded img-thumbnail" alt="Plenty banana's">
+                    <figcaption class="figure-caption text-center"> These are <b>bananas</b></figcaption>
+                  </figure>
+                </div> 
+                  <div class="col-4 " style="  height: 258px;">
+                    <figure class="figure">
+                      <img src="./Image/bunch of grapes.webp" class="figure-img img-fluid rounded img-thumbnail" alt="A bunch of grapes">
+                      <figcaption class="figure-caption text-center"> This is a bunch of <b>grapes</b></figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-4" style="  height: 258px;">
+                    <figure class="figure">
+                    <img src="./Image/oranges.webp" class="figure-img img-fluid rounded img-thumbnail" alt="An orange">
+                    <figcaption class="figure-caption text-center"> These are <b>oranges</b></figcaption>
+                  </figure>
+                </div>
+                  <div class="col-4" style=" height: 258px;">
+                    <figure class="figure">
+                    <img src="./Image/peaches.webp" class="figure-img img-fluid rounded img-thumbnail" alt="Peaches">
+                    <figcaption class="figure-caption text-center"> These are <b>Peaches</b></figcaption>
+                  </figure>
+                </div>
+                  <div class="col-4" style="  height: 258px;">
+                    <figure class="figure">
+                    <img src="./Image/watermelon-815072__340.webp" class="figure-img img-fluid rounded img-thumbnail" alt="A slice and a half of watermelon">
+                    <figcaption class="figure-caption text-center"> This is a slice of <b>watermelon</b></figcaption>
+                  </figure>
+                </div>
+                  <div class="col-4" style="height: 258px;">
+                    <figure class="figure">
+                    <img src="./Image/lemon.webp" class="figure-img img-fluid rounded img-thumbnail" alt="A sea of lemons">
+                    <figcaption class="figure-caption text-center"> These are <b>lemons</b></figcaption>
+                  </figure>
+                </div>               
+              </div>
+              <div class="col-12" >
+                <div class="embed-responsive embed-responsive-16by9 text-center" style="margin-top: 50px;"> 
+                  <iframe class="embed-responsive-item d-"width="560" height="315" src="https://www.youtube.com/embed/KRqg3RJFWPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+              <!--Vegetables section-->
+              <div class="row">
+                <h3 style="padding: 20px; text-align: center;">Vegetables</h3>
+            </div>
+            <div class="row" style=" max-width: 1200px; margin: auto;">
+              <div class="col-4 " style="  height: 350px;">
+                <figure class="figure">
+                <img src="./Image/carrots-1508847__340.webp" class="figure-img img-fluid rounded img-thumbnail" alt="Plenty carrots">
+                <figcaption class="figure-caption text-center"> These are <b>carrots</b></figcaption>
+              </figure>
+            </div> 
+              <div class="col-4 " style="  height: 258px;">
+                <figure class="figure">
+                  <img src="./Image/potatoes-411975__340.webp" class="figure-img img-fluid rounded img-thumbnail" alt="Plenty potatoes">
+                  <figcaption class="figure-caption text-center"> These are <b>potatoes</b></figcaption>
+                </figure>
+              </div>
+              <div class="col-4" style="  height: 258px;">
+                <figure class="figure">
+                <img src="./Image/green_broccoli.jpg" class="figure-img img-fluid rounded img-thumbnail" alt="A sea of broccoli">
+                <figcaption class="figure-caption text-center"> These are clusters <b>Broccoli</b></figcaption>
+              </figure>
+            </div>
+              <div class="col-4" style=" height: 258px;">
+                <figure class="figure">
+                <img src="./Image/cabbages.jpg" class="figure-img img-fluid rounded img-thumbnail" alt="Cabbages">
+                <figcaption class="figure-caption text-center"> These are <b>Cabbages</b></figcaption>
+              </figure>
+            </div>
+              <div class="col-4" style="  height: 258px;">
+                <figure class="figure">
+                <img src="./Image/cucumbers-849269__340.webp" class="figure-img img-fluid rounded img-thumbnail" alt="A lot of cucumbers">
+                <figcaption class="figure-caption text-center"> These are <b>Cucumbers</b></figcaption>
+              </figure>
+            </div>
+              <div class="col-4" style="height: 258px;">
+                <figure class="figure">
+                <img src="./Image/tomatoes-5566741__340.webp" class="figure-img img-fluid rounded img-thumbnail" alt="Tomatoes on the tree">
+                <figcaption class="figure-caption text-center"> These are <b>Tomatoes</b></figcaption>
+              </figure>
+            </div>               
+          </div>
+          </div>
+          <!--footer-->
+          <div class="row bg-danger p-4" style=" height: 150px; ">
+             
+            <div class="col-12" style="text-align: center;">
+                <div class="d-flex flex-column"><a href="/Kids-Zone/contact.html" style="text-decoration: none;">Contact Us</a></div>
+                <div class="d-flex flex-column">Terms and conditions</div>
+                <div class="d-flex flex-column">Copyright &copy; Kid's Zone</div>
+            </div>        
+
+        </div>
+
             
         </div>
     </div>
