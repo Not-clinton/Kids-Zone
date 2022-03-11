@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+*{
+    margin: auto;
+}
+body{
+    font-family: 'Comic Neue', cursive;
+}
 /*ELEAZAR'S PART OF THE CSS*/
 .body-container-fluid{
     border: 1px solid black;
@@ -17,3 +24,19 @@
     border: 1px solid black;
 }
 /*END OF ELEAZAR'S  PART OF THE CSS*/
+
+/* Fruits page*/
+.nav-sticky{
+    position: sticky;
+    top:0;
+}
+.logo{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #BCFD4B;
+
+}
+
+.carouselIcon {
+    background-color: black;
+}
