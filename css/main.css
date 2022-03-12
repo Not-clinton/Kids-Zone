@@ -1,10 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 *{
     margin: auto;
+    padding: auto
+    ;
 }
 body{
     font-family: 'Comic Neue', cursive;
 }
+/*Homepage*/
+.links{
+    color: #EC5D93;
+    font-size: 30px;
+}
+.dropd-home{
+    color: #EC5D93;
+    font-size: 30px;
+}
+.hero-container{
+    position: relative;
+  text-align: center;
+}
+.hero-text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #BCFD4B;
+  
+}
+.hero-text > h2{
+    font-size: 40px;
+}
+.hero-button{
+    color: #BCFD4B;
+    background-color: #EC5D93;
+    font-size: 30px;
+}
+
+/* Fruits page*/
+/*Navigation bar*/
+.navigation{
+    background-color: azure;
+}
+.logo{
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+.logo-left{
+    color: #BCFD4B;
+}
+.logo-hyphen{
+    color: #EC5D93;
+}
+.logo-right{
+    color: #BCFD4B;
+}
+.header-title{
+    color: #EC5D93  ;
+    font-weight: bolder;
+
+}
+.dropd {
+    color: #EC5D93;
+    font-size: 40px;
+}
+/*Carousel*/
+.carouselIcon {
+    background-color: black;
+}
+/*Main section*/
+.fruits-section{
+    background-color: azure;
+    padding: 30px;
+    margin: auto;
+}
+.fruits-section > h3{
+ color: #EC5D93;
+ font-weight: bolder;
+
+}
+.fruits-pictures{
+    background-color: #BCFD4B;
+}
+.figure{
+    
+    margin: 20px;
+  
+}
+.figure > figcaption{
+    font-size: 30px;
+    color: #EC5D93;
+    
+}
+.video{
+    
+    margin: 40px;
+    
+}
+.footer{
+    background-color: azure;
+    color: #EC5D93;
+    margin-top: 20;
+    height: 180px;
+    padding: 30px;
+    font-size: 25px;
+}
+/*Forms*/
+.sign-up{
+    margin: 0px;
+    
+}
+.submit-button{
+    color: #BCFD4B;
+    background-color: #EC5D93;
+    width: 200px;
+    margin: 20px;
+    height: 70px;
+    font-size: 30px;
+}
+.forms{
+    background-image:url("/car/home3.png");
+          background-repeat: no-repeat;
+          background-size: cover; 
+    padding: 40px;
+    font-size: 20px;
+height: 550px;
+
+    
+}
+label{
+    color: #EC5D93;
+    font-size: 40px;
+}
+.tiny-text{
+    color: #EC5D93;
+    font-size: 25px;
+}
+.input{
+    height: 50px;
+    width: 400px;
+}
+.forms-sign-up{
+    background-image:url("/car/home3.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+padding: 40px;
+font-size: 20px;
+height: 1000px;
+}
+
+
 /*ELEAZAR'S PART OF THE CSS*/
 .body-container-fluid{
     border: 1px solid black;
@@ -24,19 +170,3 @@ body{
     border: 1px solid black;
 }
 /*END OF ELEAZAR'S  PART OF THE CSS*/
-
-/* Fruits page*/
-.nav-sticky{
-    position: sticky;
-    top:0;
-}
-.logo{
-    font-size: 50px;
-    font-weight: bolder;
-    color: #BCFD4B;
-
-}
-
-.carouselIcon {
-    background-color: black;
-}
