@@ -4,77 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Kids-Zone/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/Kids-Zone/css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <title>Login</title>
-    <style>
-        body{
-          background-image:url("/Kids-Zone/image/background.jpg");
-          background-repeat: no-repeat;
-          background-size: cover; 
-        }
-        .head {
-          text-align: center;
-          padding-top: 60px;
-        }
-        .login {
-          font-size: larger;
-          padding-top: 20px;
-          padding-bottom: 40px;
-          width: 30%;
-          margin: auto;
-        }
-  
-        .login input {
-          width: 100%;
-        }
-  
-        #button {
-          margin: 0;
-          position: absolute;
-          top: 40%;
-          left: 45%;
-          border: none;
-          background-color: rgba(255, 255, 255, 0.658);
-          color: black;
-          padding: 10px;
-          width: 130px;
-        }
-        #button :hover{
-          background-color: black;
-          color: white;
-        }
-  
-        p {
-          padding-top: 75px;
-          text-align: center;
-          font-size: large;
-          color:black;
-
-        }
-      </style>
-    </head>
-    <body>
-      <div class="body">
-      <div class="head"><h1>Login</h1></div>
-      <div class="login">
-        <label for="Email">Email Address</label><br />
-        <input
-          type="email"name="email"id="email"required inputplaceholder="eg abc@gmail.com"/><br />
-        <label for="Password">Password</label><br />
-        <input type="password" name="password" id="paasword" required />
-      </div>
-      <div>
-        <input type="button" value=" Log in" id="button" />
-      </div>
-      <div>
-        <p>
-          Don't have an account? <a href="./SignUp.html">Sign up</a>
-        </p>
-      </div>
-    </div>
-    </body>
-  </html>
     
+  </head>
+  <body>
+    <div class="container-fluid sign-up">
+        <nav class="navbar navbar-expand-md navigation" id="nav-bar" style="height: 108px;">
+          <div class="container-fluid">
+              <div class="col-3">
+                  <ul class="navbar-nav">
+                      <li class="nav-item ">
+                          <a class="navbar-brand logo" href="./index.html"><span class="logo-left">Kids</span><span class="logo-hyphen">-</span><span class="logo-right">zone</span></a>
+                      </li>
+                  </ul> 
+              </div>
+              <div class="6  header-title"><h1 style="text-align: center;">Login</h1></div>
+  
+              <div class="col-3 header-title" > </div>
+              
+          </div>
+          
+      </nav>
+      
+      <main class="forms">
+        <div class="container">
+          <form >
+  
+              <div class="form-group"></div>
+              <label for="Email">Email address:</label>
+              <input type="email" class="form-control input" required id="Email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+  
+            <div class="form-group">
+              <label for="Password">Password:</label>
+              <input type="password" class="form-control input" required id="password" placeholder="Password" min="8">
+            </div>
+
+            <button type="submit" class="btn btn-lg submit-button">Login</button>
+          </form>
+          <p class="tiny-text">
+            Don't have an account? <a href="./SignUp.html">Sign up</a>
+         </p> 
+        </div>
+        
+      </main>
+      <footer class="col-12 footer" style="text-align: center;">
+        <div class="d-flex flex-column"><a href="./contact.html" style="text-decoration: none;">Contact Us</a></div>
+        <div class="d-flex flex-column">Terms and conditions</div>
+        <div class="d-flex flex-column">Copyright &copy; Kid's Zone</div>
+      </footer> 
+    </div>
+
+
+  
 </body>
 </html>
+    
