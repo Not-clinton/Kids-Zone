@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Comic Neue', cursive;
-}
+    }
 /*Homepage*/
 .links{
     color: #EC5D93;
@@ -108,7 +108,7 @@ body{
 }
 /*Forms*/
 .sign-up{
-    margin: 0px;
+    margin:0px;
     
 }
 .submit-button{
@@ -126,8 +126,11 @@ body{
     padding: 40px;
     font-size: 20px;
 height: 550px;
-
+text-align: center;
+}
     
+.form-group{
+     text-align: center;
 }
 label{
     color: #EC5D93;
@@ -145,9 +148,9 @@ label{
     background-image:url("/car/home3.png");
     background-repeat: no-repeat;
     background-size: cover; 
-padding: 40px;
-font-size: 20px;
-height: 1000px;
+    padding: 50px;
+    font-size: 20px;
+    height: 1000px;
 }
 
 
