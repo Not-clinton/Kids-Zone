@@ -28,6 +28,12 @@ body{
   color: #BCFD4B;
   
 }
+.feature > h2 {
+    font-size: 60px
+}
+.feature > p{
+    font-size: 30px;
+}
 .hero-text > h2{
     font-size: 40px;
 }
@@ -126,12 +132,12 @@ body{
     padding: 40px;
     font-size: 20px;
 height: 550px;
-text-align: center;
+
 }
-    
+ /*   
 .form-group{
      text-align: center;
-}
+}*/
 label{
     color: #EC5D93;
     font-size: 40px;
